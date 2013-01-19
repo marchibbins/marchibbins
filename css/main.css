@@ -33,10 +33,10 @@ input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit
 button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
 textarea{overflow:auto;vertical-align:top;}
 table{border-collapse:collapse;border-spacing:0;}
-body{font-family:Georgia, serif;font-size:14px;line-height:20px;color:#eeeeee;background:#0a0a0a;}
+body{font-family:'Domine',Georgia,serif;font-size:14px;line-height:20px;color:#eeeeee;background:#0a0a0a;}
 a,a:visited{text-decoration:none;color:#999999;}
 a:hover,a:active,a:focus{color:#05a4f6;}
-.info{position:absolute;top:120px;left:80px;}
+.info{position:absolute;top:120px;left:120px;}
 .title{margin:0;line-height:20px;font-size:20px;font-weight:normal;}
 .links{list-style:none;margin:10px 0;padding:0;}.links li{display:inline;}.links li:before{content:'/';margin-right:4px;}
 .links li:first-child:before{display:none;}
