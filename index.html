@@ -3,30 +3,61 @@
     <head>
         <meta charset="utf-8">
         <title>Marc Hibbins</title>
-        <meta name="author" content="Marc Hibbins">
-        <meta name="description" content="Creative Developer">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <style type="text/css">
+            html {
+                font-family: sans-serif;
+                font-size: 1rem;
+                line-height: 1.25;
+                opacity: 0.8;
+            }
 
-        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Domine">
-        <link rel="stylesheet" href="css/main.css">
+            h1 {
+                font-size: 2.5rem;
+                margin-bottom: 0;
+                font-weight: 200;
+            }
+
+            h2 {
+                margin-bottom: 2.5rem;
+                font-weight: 200;
+            }
+
+            section {
+                padding: 2rem;
+            }
+
+            ul {
+                list-style: none;
+                padding: 0;
+            }
+
+            li {
+                display: inline;
+                margin-right: 0.25rem;
+            }
+
+            a {
+                text-decoration: none;
+            }
+        </style>
     </head>
     <body>
-        <div class="info">
-            <h1 class="title">Marc Hibbins</h1>
-            <ul class="links">
-                <!-- These are well out of date, srsly -->
-                <!-- <li><a href="http://marchibbins.com/projects/">Projects (archive)</a></li> -->
-                <!-- <li><a href="http://blog.marchibbins.com/">Blog</a></li> -->
-                <li><a href="https://github.com/marchibbins" rel="external">Github</a></li>
-                <li><a href="http://twitter.com/marchibbins" rel="external">Twitter</a></li>
-                <li><a href="http://www.linkedin.com/in/marchibbins" rel="external">LinkedIn</a></li>
+        <section>
+            <h1>Marc Hibbins</h1>
+            <h2>Full-stack developer</h2>
+            <ul>
+                <li>
+                    <a href="https://github.com/marchibbins" rel="external">
+                        <img src="github.svg" alt="Github" width="35" height="35">
+                    </a>
+                </li>
+                <li>
+                    <a href="http://linkedin.com/in/marchibbins" rel="external">
+                        <img src="linkedin.svg" alt="LinkedIn" width="35" height="35">
+                    </a>
+                </li>
             </ul>
-        </div>
-
-        <script>
-            var _gaq = [['_setAccount', 'UA-8552972-1'], ['_trackPageview']];
-            (function(d,t) { var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
-            g.src = ('https:' == location.protocol ? '//ssl':'//www') + '.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s) }(document, 'script'));
-        </script>
+        </section>
     </body>
 </html>

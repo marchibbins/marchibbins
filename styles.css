@@ -1,0 +1,29 @@
+html {
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    line-height: 1.25;
+    opacity: 0.8;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0;
+}
+
+section {
+    padding: 2rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 0.25rem;
+}
+
+a {
+    text-decoration: none;
+}
